@@ -6,4 +6,6 @@ def fizzbuzz(input)
   if input % 5 == 0
     aString = "#{aString}Buzz"
   end
+  
+  return aString
 end
