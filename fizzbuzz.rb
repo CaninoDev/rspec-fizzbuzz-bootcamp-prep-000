@@ -7,5 +7,9 @@ def fizzbuzz(input)
     aString = "#{aString}Buzz"
   end
   
-  return aString
+  if aString != ""
+    return aString
+  else
+    return nil
+  end
 end
