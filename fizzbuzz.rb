@@ -1,8 +1,9 @@
 def fizzbuzz(input)
+  aString = "" 
   if input % 3 == 0 
-    return "Fizz"
+    aString = "Fizz"
   end
   if input % 5 == 0
-    bString = "Buzz"
+    aString = "#{aString}Buzz"
   end
 end
